@@ -1,8 +1,20 @@
-      /* Set black background color, white text and some padding */
-      footer {
-        background-color: #555;
-        color: white;
-        padding: 15px;
-        position: absolute;
-        bottom: 0;
-      }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+ 
+
+
+/* Set background color of navbar */
+div.container-fluid, .bg-light {
+    background-color: #d4d0c8!important;
+}
+
+
+
+
+/* Set black background color, and some padding */
+footer {
+    background-color: #d4d0c8;
+    color: #212529;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
