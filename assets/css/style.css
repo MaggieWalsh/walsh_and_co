@@ -3,12 +3,19 @@
 
 
 /* Set background color of navbar */
-div.container-fluid, .bg-light {
+div.container-fluid, .bg-light, ul.dropdown-menu.show {
     background-color: #d4d0c8!important;
 }
 
 
+.navbar-brand {
+    font-size: 1.75rem;
+}
 
+nav a {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
 
 /* Set black background color, and some padding */
 footer {
