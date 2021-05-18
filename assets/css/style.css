@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
  
+/* About */
+
+/* Font for appointment, home page */
+p.text-center.mt-5.mb-5 {
+    background-color: #bd9a99;
+}
 
 /* Set background color of navbar */
 div.container-fluid, .bg-light, ul.dropdown-menu.show {
@@ -28,11 +34,6 @@ nav a {
 body .headings, h4.text-center {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-}
-
-/* Font for appointment, home page */
-p.text-center.mt-5.mb-5 {
-    font-size: x-large;
 }
 
 .click-here {
