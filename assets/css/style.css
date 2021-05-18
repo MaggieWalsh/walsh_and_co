@@ -32,7 +32,7 @@ p.text-center.mt-5.mb-5 {
     color: #212529;
 }
 
-/* Portfolio cards */
+/* Portfolio */
 
 div#custom-carousel {
     max-width: 70%;
@@ -40,9 +40,27 @@ div#custom-carousel {
     margin: auto;
 }
 
+/* Contact */
+
+form, body {
+    background-color: #f9f8f7;
+}
+
+div.card-body {
+    background-color: #b8b2a4;
+}
+
+form {
+    width: 80%;
+}
+
 /* Center cards */
-div.card {
+div.card, div.form-group, form {
     margin: auto;
+}
+
+div.form-group {
+    max-width: 70%;
 }
 
 /* Set background color, and some padding */
@@ -63,3 +81,4 @@ footer {
     padding: 0 2%;
     color: #212529;
 }
+
