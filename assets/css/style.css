@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
  
-body .headings, h3.text-center {
-    font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-}
 
 /* Set background color of navbar */
 div.container-fluid, .bg-light, ul.dropdown-menu.show {
@@ -20,10 +16,26 @@ nav a {
     text-transform: uppercase;
 }
 
+/* Font */
+
+body .headings, h4.text-center {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+/* Font for appointment, home page */
+p.text-center.mt-5.mb-5 {
+    font-size: x-large;
+}
+
+.click-here {
+    color: #212529;
+}
+
 /* Portfolio cards */
 
 div#custom-carousel {
-    max-width: 75%;
+    max-width: 70%;
     justify-content: center;
     margin: auto;
 }
