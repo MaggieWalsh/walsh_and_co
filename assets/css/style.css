@@ -6,6 +6,13 @@ div.container-fluid, .bg-light, ul.dropdown-menu.show {
     background-color: #d4d0c8!important;
 }
 
+.logo {
+    font-size: x-small;
+}
+
+span.logo {
+    text-align: center;
+}
 
 .navbar-brand {
     font-size: 1.75rem;
