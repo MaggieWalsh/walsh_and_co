@@ -40,6 +40,11 @@ div#custom-carousel {
     margin: auto;
 }
 
+/* Center cards */
+div.card {
+    margin: auto;
+}
+
 /* Set background color, and some padding */
 footer {
     background-color: #d4d0c8;
