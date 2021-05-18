@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
  
-
+body .headings, h3.text-center {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
 
 /* Set background color of navbar */
 div.container-fluid, .bg-light, ul.dropdown-menu.show {
@@ -17,11 +20,29 @@ nav a {
     text-transform: uppercase;
 }
 
-/* Set black background color, and some padding */
+/* Portfolio cards */
+
+div#custom-carousel {
+    max-width: 75%;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Set background color, and some padding */
 footer {
     background-color: #d4d0c8;
     color: #212529;
-    padding: 15px;
-    position: absolute;
+    padding: 1%;
     bottom: 0;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0 1%;
+    padding: 0 2%;
+    color: #212529;
 }
