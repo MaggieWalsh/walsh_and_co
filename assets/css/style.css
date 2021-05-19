@@ -80,6 +80,10 @@ footer {
     bottom: 0;
 }
 
+div.text-center.p-4 {
+   background-color: rgba(0, 0, 0, 0.05);
+}
+
 .social-networks {
     text-align: center;
 }
