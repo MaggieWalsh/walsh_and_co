@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
- 
+
 /* About */
 
 /* Font for appointment, home page */
@@ -8,8 +8,12 @@ p.text-center.mt-5.mb-5 {
 }
 
 /* Set background color of navbar */
-div.container-fluid, .bg-light, ul.dropdown-menu.show, div.modal-header, div.modal-footer {
-    background-color: #d4d0c8!important;
+div.container-fluid,
+.bg-light,
+ul.dropdown-menu.show,
+div.modal-header,
+div.modal-footer {
+    background-color: #d4d0c8 !important;
 }
 
 .logo {
@@ -31,7 +35,8 @@ nav a {
 
 /* Font */
 
-body .headings, h4.text-center {
+body .headings,
+h4.text-center {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
 }
@@ -48,9 +53,22 @@ div#custom-carousel {
     margin: auto;
 }
 
+/* Paint */
+
+.paint-circle {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    /* border: 1px solid black; */
+}
+
 /* Contact */
 
-form, body, div.modal-body {
+form,
+body,
+div.modal-body {
     background-color: #f9f8f7;
 }
 
@@ -63,13 +81,15 @@ form {
 }
 
 /* Center cards */
-div.card, div.form-group, form {
+div.card,
+div.form-group,
+form {
     margin: auto;
 }
 
 div.form-group {
     max-width: 70%;
-} 
+}
 
 
 /* Set background color, and some padding */
@@ -81,7 +101,7 @@ footer {
 }
 
 div.text-center.p-4 {
-   background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .social-networks {
@@ -106,4 +126,4 @@ div.text-center.p-4 {
     .showroom {
         display: none;
     }
- }
+}
