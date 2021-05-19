@@ -8,7 +8,7 @@ p.text-center.mt-5.mb-5 {
 }
 
 /* Set background color of navbar */
-div.container-fluid, .bg-light, ul.dropdown-menu.show {
+div.container-fluid, .bg-light, ul.dropdown-menu.show, div.modal-header, div.modal-footer {
     background-color: #d4d0c8!important;
 }
 
@@ -50,7 +50,7 @@ div#custom-carousel {
 
 /* Contact */
 
-form, body {
+form, body, div.modal-body {
     background-color: #f9f8f7;
 }
 
