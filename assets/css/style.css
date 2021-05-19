@@ -69,7 +69,8 @@ div.card, div.form-group, form {
 
 div.form-group {
     max-width: 70%;
-}
+} 
+
 
 /* Set background color, and some padding */
 footer {
@@ -90,3 +91,9 @@ footer {
     color: #212529;
 }
 
+
+@media (max-width: 480px) {
+    .showroom {
+        display: none;
+    }
+ }
