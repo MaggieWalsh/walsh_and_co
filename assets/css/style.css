@@ -95,6 +95,12 @@ div.text-center.p-4 {
     color: #212529;
 }
 
+/* Footer */
+
+.email-link {
+    color: #6c757d;
+}
+
 
 @media (max-width: 480px) {
     .showroom {
