@@ -58,6 +58,12 @@ span {
     margin: auto;
 } 
 
+/* Services */
+
+/* li.text-center::marker {
+    display: none;
+} */
+
 /* Contact */
 
 form,
