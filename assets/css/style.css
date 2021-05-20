@@ -60,14 +60,14 @@ div#custom-carousel {
     width: 100px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline block; */
     margin: 2%;
     /* border: 1px solid black; */
 }
-
-.paint-text {
-    
-}
+ 
+span {
+    margin: auto;
+} 
 
 /* Contact */
 
@@ -132,3 +132,5 @@ div.text-center.p-4 {
         display: none;
     }
 }
+
+/* Create media query to fix extra circles on paint page, remove one or two etc */
