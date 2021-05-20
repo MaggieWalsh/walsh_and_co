@@ -52,18 +52,6 @@ div#custom-carousel {
     justify-content: center;
     margin: auto;
 }
-
-/* Paint */
-
-.paint-circle {
-    height: 100px;
-    width: 100px;
-    background-color: #bbb;
-    border-radius: 50%;
-    /* display: inline block; */
-    margin: 2%;
-    /* border: 1px solid black; */
-}
  
 span {
     margin: auto;
@@ -131,6 +119,128 @@ div.text-center.p-4 {
     .showroom {
         display: none;
     }
+}
+
+/* Paint */
+
+.paint-circle1 {
+    height: 100px;
+    width: 100px;
+    background-color: #eee9e7;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle2 {
+    height: 100px;
+    width: 100px;
+    background-color: #ece9d8;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle3 {
+    height: 100px;
+    width: 100px;
+    background-color: #cec0ad;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle4 {
+    height: 100px;
+    width: 100px;
+    background-color: #ddd8cf;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle5 {
+    height: 100px;
+    width: 100px;
+    background-color: #a59f97;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle6 {
+    height: 100px;
+    width: 100px;
+    background-color: #bfc2b2;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle7 {
+    height: 100px;
+    width: 100px;
+    background-color: #d9d8d2;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle8 {
+    height: 100px;
+    width: 100px;
+    background-color: #8d8d8b;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle9 {
+    height: 100px;
+    width: 100px;
+    background-color: #ccbeb2;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle10 {
+    height: 100px;
+    width: 100px;
+    background-color: #9f9289;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle11 {
+    height: 100px;
+    width: 100px;
+    background-color: #5d3a42;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle12 {
+    height: 100px;
+    width: 100px;
+    background-color: #d6c73c;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle13 {
+    height: 100px;
+    width: 100px;
+    background-color: #babba5;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle14 {
+    height: 100px;
+    width: 100px;
+    background-color: #889080;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle15 {
+    height: 100px;
+    width: 100px;
+    background-color: #4d5b6a;
+    border-radius: 50%;
+    margin: 2%;
 }
 
 /* Create media query to fix extra circles on paint page, remove one or two etc */
