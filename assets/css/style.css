@@ -147,6 +147,12 @@ div.text-center.p-4 {
     }
 }
 
+@media (max-width: 991px) {
+    .scroll-down, .scroll-down::after, .scroll-down::before, div.scroll-down {
+        display: none;
+    }
+}
+
 /* Media query to reduce amount of circles */
 
 /* @media screen and (max-width: 495px) and (min-width: 372px) {
