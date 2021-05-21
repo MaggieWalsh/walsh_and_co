@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-/* About */
+/* Landing Page About */
 
 .about-image {
     max-width: 75%;
@@ -22,12 +22,6 @@
 
 img.img-fluid.aboiut-image.mt-5 {
     vertical-align: middle;
-}
-
-/* Font for appointment, home page */
-
-p.text-center.mt-5.mb-5 {
-    background-color: #bd9a99;
 }
 
 /* Navbar */
@@ -69,6 +63,12 @@ h4.text-center {
     color: #212529;
 }
 
+/* Font - Color for Covid banner */
+
+p.text-center.mt-5.mb-5 {
+    background-color: #bd9a99;
+}
+
 /* Portfolio */
 
 div#custom-carousel {
@@ -97,7 +97,7 @@ form {
     width: 80%;
 }
 
-/* Center cards */
+/* Contact - Center Cards*/
 
 div.card,
 div.form-group,
@@ -134,12 +134,12 @@ div.text-center.p-4 {
     color: #212529;
 }
 
-/* Footer */
-
 .email-link {
     color: #6c757d;
 }
 
+
+/* Media Queries */
 
 @media (max-width: 480px) {
     .showroom {
@@ -148,6 +148,7 @@ div.text-center.p-4 {
 }
 
 /* Media query to reduce amount of circles */
+
 /* @media screen and (max-width: 495px) and (min-width: 372px) {
     .paint-circle16, .paint-circle17, .paint-circle18, .paint-circle19, .paint-circle20 {
         display: none;
@@ -156,14 +157,7 @@ div.text-center.p-4 {
 } */
 
 
-/* Media query to target footer elements in mobile view */
-/* @media (max-width: 991px) {
-    footer.text-center.text-lg-start.bg-light.text-muted {
-        
-    }
-} */
-
-/* Paint */
+/* Paint Circle Divs */
 
 .paint-circle1 {
     height: 100px;
@@ -326,11 +320,12 @@ div.text-center.p-4 {
 }
 
 
-/* Credit to Fiachra Holland for scroll down feature */
+/* Scroll down feature Credit to Fiachra Holland */
+
 .scroll-down {
     height: 50px;
     width: 30px;
-    border: 2px solid #fafafa;
+    border: 2px solid #f9f8f7;
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%);
@@ -352,7 +347,7 @@ div.text-center.p-4 {
     -webkit-transform: translate(-50%, -100%) rotate(45deg);
         -ms-transform: translate(-50%, -100%) rotate(45deg);
             transform: translate(-50%, -100%) rotate(45deg);
-    border: 2px solid #fafafa;
+    border: 2px solid #f9f8f7;
     border-top: transparent;
     border-left: transparent;
     -webkit-animation: scroll-down 1s ease-in-out infinite;
