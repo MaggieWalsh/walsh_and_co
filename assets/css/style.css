@@ -155,12 +155,17 @@ div.text-center.p-4 {
 
 /* Media query to reduce amount of circles */
 
-/* @media screen and (max-width: 495px) and (min-width: 372px) {
-    .paint-circle16, .paint-circle17, .paint-circle18, .paint-circle19, .paint-circle20 {
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .paint-circle19, .paint-circle20, .headings19, .headings20 {
         display: none;
-        margin: 2%;
     }
-} */
+}
+
+@media (min-width: 372px) and (max-width: 495px) {
+    .paint-circle19, .paint-circle20, .headings19, .headings20 {
+          display: none;
+      }
+  }
 
 
 /* Paint Circle Divs */
