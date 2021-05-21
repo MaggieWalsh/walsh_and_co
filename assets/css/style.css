@@ -128,11 +128,21 @@ div.text-center.p-4 {
     }
 }
 
-@media (max-width: 991px) {
-    footer.text-center.text-lg-start.bg-light.text-muted {
-        display: flow-root;
+/* Media query to reduce amount of circles */
+/* @media screen and (max-width: 495px) and (min-width: 372px) {
+    .paint-circle16, .paint-circle17, .paint-circle18, .paint-circle19, .paint-circle20 {
+        display: none;
+        margin: 2%;
     }
-}
+} */
+
+
+/* Media query to target footer elements in mobile view */
+/* @media (max-width: 991px) {
+    footer.text-center.text-lg-start.bg-light.text-muted {
+        
+    }
+} */
 
 /* Paint */
 
@@ -252,6 +262,46 @@ div.text-center.p-4 {
     height: 100px;
     width: 100px;
     background-color: #4d5b6a;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle16 {
+    height: 100px;
+    width: 100px;
+    background-color: #494248;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle17 {
+    height: 100px;
+    width: 100px;
+    background-color: #a04344;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle18 {
+    height: 100px;
+    width: 100px;
+    background-color: #9f837f;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle19 {
+    height: 100px;
+    width: 100px;
+    background-color: #8a9c9b;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.paint-circle20 {
+    height: 100px;
+    width: 100px;
+    background-color: #45484b;
     border-radius: 50%;
     margin: 2%;
 }
