@@ -2,6 +2,29 @@
 
 /* About */
 
+.about-image {
+    max-width: 75%;
+    max-height: auto;
+    padding-left: 25%;
+}
+
+.index-about, .services-about {
+    max-width: 90%;
+    max-height: auto;
+    padding-left: 13%;
+}
+
+.services-about {
+    max-width: 90%;
+    max-height: auto;
+    padding-right: 13%;
+}
+
+
+img.img-fluid.aboiut-image.mt-5 {
+    vertical-align: middle;
+}
+
 /* Font for appointment, home page */
 p.text-center.mt-5.mb-5 {
     background-color: #bd9a99;
