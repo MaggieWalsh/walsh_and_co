@@ -128,6 +128,12 @@ div.text-center.p-4 {
     }
 }
 
+@media (max-width: 991px) {
+    footer.text-center.text-lg-start.bg-light.text-muted {
+        display: flow-root;
+    }
+}
+
 /* Paint */
 
 .paint-circle1 {
