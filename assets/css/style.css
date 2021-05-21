@@ -20,17 +20,17 @@
     padding-right: 13%;
 }
 
-
 img.img-fluid.aboiut-image.mt-5 {
     vertical-align: middle;
 }
 
 /* Font for appointment, home page */
+
 p.text-center.mt-5.mb-5 {
     background-color: #bd9a99;
 }
 
-/* Set background color of navbar */
+/* Navbar */
 
 div.container-fluid,
 .bg-light,
@@ -81,12 +81,6 @@ span {
     margin: auto;
 } 
 
-/* Services */
-
-/* li.text-center::marker {
-    display: none;
-} */
-
 /* Contact */
 
 form,
@@ -104,6 +98,7 @@ form {
 }
 
 /* Center cards */
+
 div.card,
 div.form-group,
 form {
@@ -115,7 +110,8 @@ div.form-group {
 }
 
 
-/* Set background color, and some padding */
+/* Footer */
+
 footer {
     background-color: #d4d0c8;
     color: #212529;
@@ -329,4 +325,74 @@ div.text-center.p-4 {
     margin: 2%;
 }
 
-/* Create media query to fix extra circles on paint page, remove one or two etc */
+
+/* Credit to Fiachra Holland for scroll down feature */
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid #fafafa;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+  }
+  .scroll-down::before,
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    -webkit-transform: translate(-50%, -100%) rotate(45deg);
+        -ms-transform: translate(-50%, -100%) rotate(45deg);
+            transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid #fafafa;
+    border-top: transparent;
+    border-left: transparent;
+    -webkit-animation: scroll-down 1s ease-in-out infinite;
+            animation: scroll-down 1s ease-in-out infinite;
+  }
+  .scroll-down::before {
+    top: 30%;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  
+  @-webkit-keyframes scroll-down {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  }
+  
