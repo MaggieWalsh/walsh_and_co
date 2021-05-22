@@ -1,5 +1,5 @@
 # Table of Contents
-  * [Walsh & Co. | Original Interior Design](#walsh---co---original-interior-design)
+  * [Walsh and Co Original Interior Design](#walsh-and-co-original-interior-design)
   * [UX](#ux)
     * [Project Research](#project-research)
         + [Research Analysis](#research-analysis)
@@ -31,7 +31,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-# Walsh & Co. | Original Interior Design
+# [Walsh and Co Original Interior Design](#walsh-and-co-original-interior-design)
 
 A website for a luxury interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages 
