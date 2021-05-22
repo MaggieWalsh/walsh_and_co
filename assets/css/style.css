@@ -4,19 +4,19 @@
 
 .about-image {
     max-width: 75%;
-    max-height: auto;
+    /* max-height: auto; */
     padding-left: 25%;
 }
 
 .index-about, .services-about {
     max-width: 90%;
-    max-height: auto;
+    /* max-height: auto; */
     padding-left: 13%;
 }
 
 .services-about {
     max-width: 90%;
-    max-height: auto;
+    /* max-height: auto; */
     padding-right: 13%;
 }
 
