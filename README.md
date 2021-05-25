@@ -3,7 +3,7 @@
   * [UX](#ux)
     * [Project Research](#project-research)
         + [Research Analysis](#research-analysis)
-    * [Personas & Their Goals](#personas---their-goals)
+    * [Personas and Their Goals](#personas-and-their-goals)
     * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
   * [Design](#design)
@@ -33,7 +33,16 @@
 
 # [Walsh and Co Original Interior Design](#walsh-and-co-original-interior-design)
 
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/am-i-responsive.png)
+
 A website for a luxury interior design company, based in Ireland and England.  
-The website features an initial landing page, and four additional pages 
+The website features an initial landing page, and four additional pages
+
+# [UX](#ux)
+  * ## [Project Research](#project-research)
+    * ## [Research Analysis](#research-analysis)
+  * ## [Personas and Their Goals](#personas-and-their-goals)
+  * ## [User Stories](#user-stories)
+  * ## [Wireframes](wireframes)
 
 
