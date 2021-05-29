@@ -18,7 +18,6 @@
 </head>
 
 <body>
-  
   <!-- Navbar -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -53,121 +52,116 @@
       </div>
     </div>
   </nav>
-
   <!-- Paint About -->
   <h2 class="headings text-center mt-5"><u>Paint Colours</u></h2>
-  <p class="text-center mt-4 px-2">We are excited to share our very first paint collection with you. 
-    Exclusively curated by our team in conjuction with Farrow & Ball. 
+  <p class="text-center mt-4 px-2">We are excited to share our very first paint collection with you.
+    Exclusively curated by our team in conjuction with Farrow & Ball.
     <br>
-    Call into your local stockist for a sample pot, or paper swatch today! 
+    Call into your local stockist for a sample pot, or paper swatch today!
     <br>
-    Do you have an item that you just love the colour of? 
+    Do you have an item that you just love the colour of?
     Bring it along and we will use our Spectrometer to scan it and create your very own, unique paint.
     <br>
-
     <!-- Stockist Modal Button -->
-  <button type="button" class="btn btn-secondary paint-button mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Find your nearest stockist here.
-  </button>
-</p>
+    <button type="button" class="btn btn-secondary paint-button mt-3" data-bs-toggle="modal"
+      data-bs-target="#exampleModal">
+      Find your nearest stockist here.
+    </button>
+  </p>
+  <!-- Stockist Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title headings justify-content-center" id="exampleModalLabel">Stockists</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Stockist Table -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Contact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>F&B Design</td>
+                <td>Ennis, Clare</td>
+                <td>0719384763</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Castlebar, Mayo</td>
+                <td>0433453456</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Sligo Town, Sligo</td>
+                <td>0687384937</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Trim, Meath</td>
+                <td>0369877982</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Courtown, Wexford</td>
+                <td>0579393728</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Donnybrook, Dublin</td>
+                <td>0103834763</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Knightsbridge, London</td>
+                <td>0986283940</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Chelsea, London</td>
+                <td>0786829339</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Virginia Water, Surrey</td>
+                <td>0987545829</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Ascot, Berkshire</td>
+                <td>0536293043</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Bath, Sommerset</td>
+                <td>0283628393</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Oxford, Oxfordshire</td>
+                <td>0678399349</td>
+              </tr>
+              <tr>
+                <td>F&B Design</td>
+                <td>Aldershot, Hampshire</td>
+                <td>0654325468</td>
+              </tr>
 
-<!-- Stockist Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title headings justify-content-center" id="exampleModalLabel">Stockists</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-
-                    <!-- Stockist Table -->
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th scope="col">Name</th>
-                          <th scope="col">Address</th>
-                          <th scope="col">Contact</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Ennis, Clare</td>
-                          <td>0719384763</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Castlebar, Mayo</td>
-                          <td>0433453456</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Sligo Town, Sligo</td>
-                          <td>0687384937</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Trim, Meath</td>
-                          <td>0369877982</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Courtown, Wexford</td>
-                          <td>0579393728</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Donnybrook, Dublin</td>
-                          <td>0103834763</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Knightsbridge, London</td>
-                          <td>0986283940</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Chelsea, London</td>
-                          <td>0786829339</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Virginia Water, Surrey</td>
-                          <td>0987545829</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Ascot, Berkshire</td>
-                          <td>0536293043</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Bath, Sommerset</td>
-                          <td>0283628393</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Oxford, Oxfordshire</td>
-                          <td>0678399349</td>
-                        </tr>
-                        <tr>
-                          <td>F&B Design</td>
-                          <td>Aldershot, Hampshire</td>
-                          <td>0654325468</td>
-                        </tr>
-                      
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="modal-footer">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Paint Circle Divs -->
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Paint Circle Divs -->
   <div class="container text-center mt-2">
     <h5 class="headings text-center mt-4">The Lux Collection</h5>
     <div class="row mt-3">
@@ -253,14 +247,12 @@
       </div>
     </div>
   </div>
-
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-light text-muted">
     <section class="">
       <div class="container text-center text-md-start mt-3">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
-
             <!-- Footer Content -->
             <h6 class="text-uppercase fw-bold mb-2">
               <i class="fas fa-swatchbook"></i>
@@ -285,7 +277,6 @@
         </div>
       </div>
     </section>
-
     <!-- Social Media Links  -->
     <div class="text-center">
       <a href="https://www.pinterest.com" target="_blank" class="me-4 text-reset"><i class="fab fa-pinterest-p"></i></a>
@@ -295,15 +286,11 @@
       <a href="https://google.com" target="_blank" class="me-4 text-reset"><i class="fab fa-google"></i></a>
       <a href="https://instagram.com" target="_blank" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
     </div>
-
-    <!-- Copyright -->
     <div class="text-center p-4">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="index.html">Walsh&Co.com</a>
+      <a class="text-reset fw-bold" href="index.html">Walsh&Co.com™</a>
     </div>
   </footer>
   <!-- Footer credit https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>
