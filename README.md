@@ -72,9 +72,15 @@ The website features an initial landing page, and four additional pages of conte
     9. As a user, I want to be able to access your social media accounts.
     10. As a user, I want to know who I will be dealing with.
   * ## Wireframes
+    * [Home](link)
+    * [Portfolio](link)
+    * [Services](link)
+    * [Paint](link)
+      * [Stockists](link)
+    * [Contact](link)
   * ## Design
     * ## Colour Scheme
-      I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. I settled on my Hero Image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour palette]() for the website from my Hero Image. This meant that the colours complimented each other nicely. 
+      I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. I settled on my Hero Image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour]() for the website from my Hero Image. This meant that the colours complimented each other nicely. 
     * ## Favicon  
     * ## Typography
     * ## Imagery
