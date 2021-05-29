@@ -111,6 +111,9 @@ div.form-group {
 
 
 /* Footer */
+a {
+    color: #6c757d;
+}
 
 footer {
     background-color: #d4d0c8;
