@@ -1,6 +1,6 @@
 # Table of Contents
   * [Walsh and Co Original Interior Design](#walsh-and-co-original-interior-design)
-  * [UX](#ux)
+  * [UX and UI](#ux-and-ui)
     * [Project Research](#project-research)
         + [Research Analysis](#research-analysis)
     * [Persona and Their Goals](#persona-and-their-goals)
@@ -41,13 +41,13 @@ I created this website for the 1st Milestone Project on User Centric Frontend, a
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content.
-# UX
+# UX and UI
 
   * ## Project Research
 
     I have worked in and managed a trade paint shop since 2016. Having served thousands of customers, I have a good understanding of the expectations people have when it comes to the finish of their homes. 
 
-    * ### Research Analysis
+    * ## Research Analysis
 
       As people have had to spend a lot more time at home since the start of the pandemic, there has been a huge increase in home improvements.
       
