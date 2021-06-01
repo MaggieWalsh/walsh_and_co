@@ -156,5 +156,7 @@ The website features an initial landing page, and four additional pages of conte
     * ## Imagery
     * ## Code
     * ## Acknowledgements
+      Fiachra Holland
+      Eventyret
 
 
