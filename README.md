@@ -11,6 +11,7 @@
     * [Favicon](#favicon)
     * [Typography](#typography)
     * [Imagery](#imagery)
+    * [Layout](#layout)
   * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
@@ -36,7 +37,9 @@
 
 ![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/am-i-responsive.png)
 
-A website for a luxury interior design company, based in Ireland and England.  
+I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
+
+I wanted to create a website to showcase a fictional luxury interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content.
 # UX
 
@@ -80,12 +83,21 @@ The website features an initial landing page, and four additional pages of conte
     * [Contact](link)
   * ## Design
     * ## Colour Scheme
-      I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. I settled on my Hero Image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour]() for the website from my Hero Image. This meant that the colours complimented each other nicely. 
-    * ## Favicon  
+      I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. I settled on my Hero Image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](assets/docs/colour-palette.jpg) pallette for the website from my Hero Image. This meant that the colours complimented each other nicely. 
+    * ## Favicon 
+      I used the website [Favicon.io](https://favicon.io/) to create a favicon for my website. I wanted to keep the neutral theme of the website I kept the background colour the same as the header and footer sections, I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
     * ## Typography
+      I wanted an elegant looking font to bolster the feeling of luxury throughout the site. I liked the contrast between the font for the headings which is Fairplay Display, and the font for the rest of the website.
     * ## Imagery
+      All imagery was sourced from the website, [Unsplash.](https://unsplash.com/)
+
+      The images that I chose were subtly oppulent, which fit the site well. The hero image is neutral, and decorated to a high standard which sets a good first impression for the site. I wanted all the images to be aesthetically pleasing to convey quality that I was aiming for.
+    * ## Layout
+      I decided on a multi paged website because I felt like each topic deserved it's own dedicated page. I wanted the hero image to take up the entire space above the fold on the landing page, in order to make a good first impression. I opted for a larger than 'standard' footer as I feel like a more substantial footer leads to a more elegant feeling. The opaque overlay finishes it off nicely.
   * ## Features
     * ## Existing Features
+      Every page has the following features from left to right, top to bottom :
+      * Logo
     * ## Features to be Implemented in Future
   * ## Technologies Used
     * ## Languages
