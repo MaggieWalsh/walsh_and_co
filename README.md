@@ -81,6 +81,7 @@ The website features an initial landing page, and four additional pages of conte
     * [Paint](link)
       * [Stockists](link)
     * [Contact](link)
+      * [Form Success](link)
   * ## Design
     * ## Colour Scheme
       I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. 
@@ -126,9 +127,23 @@ The website features an initial landing page, and four additional pages of conte
 
         Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the locations.
     * ## Features to be Implemented in Future
+      * 3D Room Visualiser and Furniture Shop
   * ## Technologies Used
     * ## Languages
+      * HTML5
+      * CSS
     * ## Frameworks & Libraries
+      * Bootstrap v.5 (which uses JavaScript)
+      * !bcdn5 - Eventyret
+      * Google Fonts
+      * Font Awesome
+      * Coolors.co
+      * Favicon.io
+      * Unsplash
+      * Balsamiq
+      * VS Code
+      * GitHub
+      * Autoprefixer
   * ## Testing
     * ## User Stories Testing
     * ## Additional Testing
