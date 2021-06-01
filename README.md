@@ -42,7 +42,7 @@ I created this website for the 1st Milestone Project on User Centric Frontend, a
 Live website available [here.](https://maggiewalsh.github.io/walsh_and_co/)
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
-The website features an initial landing page, and four additional pages of content.
+The website features an initial landing page, and four additional pages of content. Showcasing some of the things that I have learned.
 # UX and UI
 
   * ## Project Research
