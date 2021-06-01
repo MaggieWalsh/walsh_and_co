@@ -75,13 +75,7 @@ The website features an initial landing page, and four additional pages of conte
     9. As a user, I want to be able to access your social media accounts.
     10. As a user, I want to know who I will be dealing with.
   * ## Wireframes
-    * [Home](link)
-    * [Portfolio](link)
-    * [Services](link)
-    * [Paint](link)
-      * [Stockists](link)
-    * [Contact](link)
-      * [Form Success](link)
+    * Mobile, Tablet, and Desktop wireframes are all available [here.](assets/docs/wireframes.pdf)
   * ## Design
     * ## Colour Scheme
       I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. 
