@@ -35,7 +35,7 @@
 
 # Walsh and Co Original Interior Design
 
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/am-i-responsive.png)
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/docs/am-i-responsive.png)
 
 I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
 
