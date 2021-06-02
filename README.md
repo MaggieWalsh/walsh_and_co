@@ -38,7 +38,7 @@
 
 I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
 
-Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/)g{target="_blank"}
+Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/)
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content. Showcasing some of the things that I have learned.
@@ -85,7 +85,7 @@ The website features an initial landing page, and four additional pages of conte
       
       I settled on my hero image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](assets/docs/colour-palette.jpg) pallette for the website from my hero image. This meant that the colours complimented each other nicely. 
     * ## Favicon 
-      I used the website : [Favicon.io](https://favicon.io/) to create a favicon for my website. I wanted to continue with the neutral theme of the so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
+      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted to continue with the neutral theme of the so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
     * ## Typography
       I wanted an elegant looking font to bolster the feeling of luxury throughout the site. I liked the contrast between the font for the headings which is Fairplay Display, and the font for the rest of the website.
     * ## Imagery
@@ -98,8 +98,11 @@ The website features an initial landing page, and four additional pages of conte
     * ## Existing Features
       * Every page has the following features from left to right, top to bottom :
         * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the homepage from all other pages.
+
         ![Logo](assets/docs/logo.png)
+
         * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
+
         ![Navbar](assets/docs/navbar.png)
 
           The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
@@ -109,27 +112,40 @@ The website features an initial landing page, and four additional pages of conte
           The muted font colour adds another subtle dimension to the footer.
 
           ![Footer](assets/docs/footer.png)
+
       * Landing page - This page contains the hero image and a scroll prompt, on desktop only, to allow users to know that there is more content below the fold. 
       
         There is a brief description of the company and what they do. I have added a picture of the owner for a personal touch. I feel like a family run business is affiliated with a sense of trustworthiness. 
       
         I decided to add a banner below this content to address the current global pandemic, COVID-19, in order to add a sense that this is a real website. There is also a link in this banner that brings the user to the contact page in order to make an appointment as indicated.
+
         ![Hero Image](assets/docs/landing-page.png)
+
       * Portfolio - The image carousel contains pictures of recent projects completed by the company, with some informative text below.
+
         ![Portfolio](assets/docs/portfolio.png)
+
       * Services - This gives the user all the information they need, should they engage the services of the company. 
       
         It also contains the costs for the initial consultation. There is an image of a business lady at a computer accompanying this information.
+
+        ![Services](assets/docs/services.png)
+
       * Paint - I wanted to provide the user with a brief description of the paint service available. 
       
         The stockist button serves to pop open a modal which is styled with the same colour pallette and font as the rest of the site. In the modal there is a table containing contact information for each stockist in Ireland and England. This allows the user to choose their nearest stockist to get their paint from.
         Upon exiting the modal, below the "Stockist" button there are a range of paints available from the company.
+
         ![Paint](assets/docs/paint.png)
+
       * Contact - This page contains a form for the user to do a number of things, e.g. Book and appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
       
         The user must submit certain details on the form in order for it to be successful. Once done, the user is brought to a success page that thanks them for their enquiry. It will redirect the user to the services page , as stated, after 10 seconds. This page has the same styling and navigation menu as the other pages, should an error occur and the redirect fails. There is some text to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon.
 
         Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the locations.
+
+        ![Contact](assets/docs/contact.png)
+
     * ## Features to be Implemented in Future
       * 3D Room Visualiser and Furniture Shop
   * ## Technologies Used
@@ -138,7 +154,7 @@ The website features an initial landing page, and four additional pages of conte
       * CSS
     * ## Frameworks & Libraries
       * Bootstrap v.5 (which uses JavaScript)
-      * !bcdn5 - Eventyret
+      * !bcdn5 - Simen Daehlin
       * Google Fonts
       * Font Awesome
       * Coolors.co
