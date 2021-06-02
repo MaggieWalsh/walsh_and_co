@@ -4,6 +4,7 @@
     * [Project Research](#project-research)
         + [Research Analysis](#research-analysis)
     * [Persona and Their Goals](#persona-and-their-goals)
+    * [Owner Goals](#owner-goals)
     * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
   * [Design](#design)
@@ -37,7 +38,7 @@
 
 I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
 
-Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/)
+Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/){target="_blank"}
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content. Showcasing some of the things that I have learned.
@@ -65,6 +66,7 @@ The website features an initial landing page, and four additional pages of conte
     They want a bespoke experience, tailored to their every desire. 
     
     They want a service that is going to take them from conception to completion, by a team that they can trust.
+  * ## Owner Goals
 
   * ## User Stories
     1. As a user visiting the site for the first time, I want to navigate the site intuitively.
