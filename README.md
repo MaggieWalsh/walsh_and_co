@@ -35,14 +35,15 @@
 
 # Walsh and Co Original Interior Design
 
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/docs/am-i-responsive.png)
-
 I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
 
-Live website available [here.](https://maggiewalsh.github.io/walsh_and_co/)
+Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/)
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content. Showcasing some of the things that I have learned.
+
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/docs/am-i-responsive.png)
+
 # UX and UI
 
   * ## Project Research
@@ -71,11 +72,9 @@ The website features an initial landing page, and four additional pages of conte
     3. As a user, I want to be able to find out the cost of the services provided.
     4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
     5. As a user, I want to be able to contact the company.
-    6. As a user, I want to book an appointment.
-    7. As a user, I want to enquire about something that I didn't see covered on the website.
-    8. As a user, I want to know where you are located.
-    9. As a user, I want to be able to access your social media accounts.
-    10. As a user, I want to know who I will be dealing with.
+    6. As a user, I want to know where you are located.
+    7. As a user, I want to be able to access your social media accounts.
+    8. As a user, I want to know who I will be dealing with.
   * ## Wireframes
     * Mobile, Tablet, and Desktop wireframes are all available [here.](assets/docs/wireframes.pdf)
   * ## Design
@@ -97,19 +96,25 @@ The website features an initial landing page, and four additional pages of conte
     * ## Existing Features
       * Every page has the following features from left to right, top to bottom :
         * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the homepage from all other pages.
+        ![Logo](assets/docs/logo.png)
         * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
+        ![Navbar](assets/docs/navbar.png)
 
           The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
         * Content - Each page has details relating to the header of said page.
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
         
           The muted font colour adds another subtle dimension to the footer.
+
+          ![Footer](assets/docs/footer.png)
       * Landing page - This page contains the hero image and a scroll prompt, on desktop only, to allow users to know that there is more content below the fold. 
       
         There is a brief description of the company and what they do. I have added a picture of the owner for a personal touch. I feel like a family run business is affiliated with a sense of trustworthiness. 
       
         I decided to add a banner below this content to address the current global pandemic, COVID-19, in order to add a sense that this is a real website. There is also a link in this banner that brings the user to the contact page in order to make an appointment as indicated.
+        ![Hero Image](assets/docs/landing-page.png)
       * Portfolio - The image carousel contains pictures of recent projects completed by the company, with some informative text below.
+        ![Portfolio](assets/docs/portfolio.png)
       * Services - This gives the user all the information they need, should they engage the services of the company. 
       
         It also contains the costs for the initial consultation. There is an image of a business lady at a computer accompanying this information.
@@ -117,6 +122,7 @@ The website features an initial landing page, and four additional pages of conte
       
         The stockist button serves to pop open a modal which is styled with the same colour pallette and font as the rest of the site. In the modal there is a table containing contact information for each stockist in Ireland and England. This allows the user to choose their nearest stockist to get their paint from.
         Upon exiting the modal, below the "Stockist" button there are a range of paints available from the company.
+        ![Paint](assets/docs/paint.png)
       * Contact - This page contains a form for the user to do a number of things, e.g. Book and appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
       
         The user must submit certain details on the form in order for it to be successful. Once done, the user is brought to a success page that thanks them for their enquiry. It will redirect the user to the services page , as stated, after 10 seconds. This page has the same styling and navigation menu as the other pages, should an error occur and the redirect fails. There is some text to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon.
