@@ -168,6 +168,10 @@ The website features an initial landing page, and four additional pages of conte
   * ## Testing
     * ## User Stories Testing
     * ## Additional Testing
+      W3 - Unicorn Validator
+      W3 - HTML Validator
+      Developer Tools - Lighthouse
+
         * ### Ongoing Bugs
   * ## Deployment
     * ## GitHub Pages
@@ -175,9 +179,11 @@ The website features an initial landing page, and four additional pages of conte
     * ## Cloning the Published GitHub Repository
   * ## Credits
     * ## Imagery
+      Unsplash - 
     * ## Code
     * ## Acknowledgements
       Fiachra Holland
-      Eventyret
+      Simen Daehlin
+      Rohit Sharma
 
 
