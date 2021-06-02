@@ -38,7 +38,7 @@
 
 I created this website for the 1st Milestone Project on User Centric Frontend, at Code Institute's Diploma in Software Development course. 
 
-Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/){target="_blank"}
+Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_co/)g{target="_blank"}
 
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content. Showcasing some of the things that I have learned.
