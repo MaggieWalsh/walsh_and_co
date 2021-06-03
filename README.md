@@ -20,6 +20,7 @@
     * [Languages](#languages)
     * [Frameworks & Libraries](#frameworks---libraries)
   * [Testing](#testing)
+    * [Owner Goals Testing](#owner-goals-testing)
     * [User Stories Testing](#user-stories-testing)
     * [Additional Testing](#additional-testing)
         + [Ongoing Bugs](#ongoing-bugs)
@@ -154,7 +155,7 @@ The website features an initial landing page, and four additional pages of conte
       * CSS
     * ## Frameworks & Libraries
       * Bootstrap v.5 (which uses JavaScript)
-      * !bcdn5 - Simen Daehlin
+      * !bcdn5 extension for VS Code - Simen Daehlin
       * Google Fonts
       * Font Awesome
       * Coolors.co
@@ -166,10 +167,22 @@ The website features an initial landing page, and four additional pages of conte
       * Autoprefixer
       * Am I Responsive
   * ## Testing
+    * ## Owner Goals Testing
     * ## User Stories Testing
+      1. As a user visiting the site for the first time, I want to navigate the site intuitively.
+      2. As a user, I want to know what services are provided, and what is involved in the process.
+      3. As a user, I want to be able to find out the cost of the services provided.
+      4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
+      5. As a user, I want to be able to contact the company.
+      6. As a user, I want to know where you are located.
+      7. As a user, I want to be able to access your social media accounts.
+      8. As a user, I want to know who I will be dealing with.
+
     * ## Additional Testing
       W3 - Unicorn Validator
+
       W3 - HTML Validator
+      
       Developer Tools - Lighthouse
 
         * ### Ongoing Bugs
