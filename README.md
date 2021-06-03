@@ -68,7 +68,9 @@ The website features an initial landing page, and four additional pages of conte
     
     They want a service that is going to take them from conception to completion, by a team that they can trust.
   * ## Owner Goals
-
+    1. Increase sales.
+    2. Improve interaction with existing and potential customers.
+    3. Build the brand.
   * ## User Stories
     1. As a user visiting the site for the first time, I want to navigate the site intuitively.
     2. As a user, I want to know what services are provided, and what is involved in the process.
@@ -167,6 +169,22 @@ The website features an initial landing page, and four additional pages of conte
       * Am I Responsive
   * ## Testing
     * ## Owner Goals Testing
+    1. Increase sales.
+       * Search engine optimization.
+       * Well organised content.
+       * User-friendly site.
+       * Effective calls to action.
+
+    2. Improve interaction with existing and potential customers.
+       * Newsletter sign-up.
+       * Support via numerous contact options.
+       * Easy to access information regarding steps involved.
+       * Website is screen-reader friendly and can be navigated with just a keyboard.
+
+    3. Build the brand.
+       * Social media links to promote brand on other avenues.
+       * Associated with a desireable paint brand.
+
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
          * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo.
@@ -175,15 +193,15 @@ The website features an initial landing page, and four additional pages of conte
          * A user can navigate to the services page in order to see what is involved int the interior design steps.
          * There is further information regarding the paint service on the paint page.
       3. As a user, I want to be able to find out the cost of the services provided.
-         * A user can find out the price for the initial consultation on the services page.
+         * A user can find out the cost for the initial consultation by navigating to the services page.
       4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
-         * A user can view past projects on the portfolio page, where there is a carousel of images of the companies most recent projects.
+         * A user can view past projects by navigating to the portfolio page, where there is a carousel of images of the companies most recent projects.
       5. As a user, I want to be able to contact the company.
          * A user can contact the company via the telephone numbers in the footer.
          * A user can contact the company via the email adress in the footer.
          * A user can contact the company via the form on the contact page.
       6. As a user, I want to know where your paint stockists are located.
-         * A user can find out the location of the paint stockists by naviagtin to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
+         * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
       7. As a user, I want to be able to access your social media accounts.
          * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
 
