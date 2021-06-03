@@ -170,27 +170,10 @@ The website features an initial landing page, and four additional pages of conte
       * Autoprefixer
       * Am I Responsive
   * ## Testing
-    * ## Owner Goals Testing
-      1. Increase sales.
-         * Search engine optimization.
-         * Well organised content.
-         * User-friendly site.
-         * Effective calls to action.
-
-      2. Improve interaction with existing and potential customers.
-         * Newsletter sign-up.
-         * Support via numerous contact options.
-         * Easy to access information regarding steps involved.
-         * Website is screen-reader friendly and can be navigated with just a keyboard.
-
-      3. Build the brand.
-         * Social media links to promote brand on other avenues.
-         * Associated with a desireable paint brand.
-
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
-         * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo.
-         * On the landing page there is a banner wproviding Covid-19 information and also a link to the call to action form on the contact page.
+         * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo. As is standard with most navigation these days.
+         * On the landing page there is a banner providing Covid-19 information and also a link to the call to action form on the contact page.
       2. As a user, I want to know what services are provided, and what is involved in the process.
          * A user can navigate to the services page in order to see what is involved int the interior design steps.
          * There is further information regarding the paint service on the paint page.
@@ -200,40 +183,40 @@ The website features an initial landing page, and four additional pages of conte
          * A user can view past projects by navigating to the portfolio page, where there is a carousel of images of the companies most recent projects.
       5. As a user, I want to be able to contact the company.
          * A user can contact the company via the telephone numbers in the footer.
-         * A user can contact the company via the email adress in the footer.
+         * A user can contact the company via the email address in the footer.
          * A user can contact the company via the form on the contact page.
       6. As a user, I want to know where your paint stockists are located.
          * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
       7. As a user, I want to be able to access your social media accounts.
          * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
-    * ## Functional Element Testing 
-      * Navigation - Confirmed on all pages.
-        * Confirmed that logo returns user to landing page from all other pages
-        * Confirmed that all navigation links direct to the specified page.
-        * Confirmed that the current page the user is on, is highlighted as active in the menu.
-        * Confirmed that the navigation menu shifts to from hamburger on screens of 991px and above.
+    * ## Functionality Testing 
+      * Navigation - Repeated steps on all pages.
+        * Click on logo to confirm that it navigates to landing page.
+        * Click on all navigation links to verify that they direct to the indicated page.
+        * Verify that the current page the user is on, is highlighted as active in the menu.
+        * Verify that the navigation menu shifts to from [hamburger](docs/hamburger.png) on screens of 991px and above. 
       * Landing page
-        * Confirmed that the scroll prompt works only on screens 991px and above.
-        * Confirmed that the link to make an appoitnment directs the user to the contact page.
+        * Verify that the [scroll](docs/no-scroll.png) prompt works only on screens 991px and above.
+        * Verify that the link to make an appointment directs the user to the contact page.
       * Portfolio
-        * Confirmed that the image carousel is functional, and clicks through the images.
-        * Confirmed that images are confined to the carousel and not overflowing it.
+        * Verify that the image carousel is functional, and clicks through the images.
+        * Verify that images are confined to the carousel and not overflowing it.
       * Paint
-        * Confirmed that the stockist button pops open a modal.
-        * Confirmed that the modal contains a table with stockist informatio. 
-        * Confirmed that modal closes when the 'X' button is selcted, or the user clicks on the screen anywhere outside of the modal window.
+        * Verify that the stockist button pops open a modal.
+        * Verify that the modal contains a table with stockist information. 
+        * Verify that modal closes when the 'X' button is selected, or the user clicks on the screen anywhere outside of the modal window.
       * Contact
-        * Confirmed that all elements that are set to required are working.
-        * Confirmed that valid email address is needed with relevant '@' included.
-        * Confirmed that 'Submit' button directs user to a success page.
+        * Verify that all elements that are set to required are working.
+        * Verify that valid email address is needed with relevant '@' included.
+        * Verify that 'Submit' button directs user to a success page.
       * Form success
-        * Confirm that navigation elements work.
-        * Confirm that page automatically directs user to the services page after 10 seconds, as indicated.
-      * Footer - Confirmed on all pages
-        * Confirmed that the social media links open in a new tab.
-        * Confirmed that the email link works when selected.
-        * Confirmed that the phone number shown is dialled when selected.
-        * Confirmed that the website hyperlink directs the user back to the landing page.
+        * Verify that navigation elements work the same as all other pages.
+        * Verify that the page automatically redirects the user to the services page after 10 seconds, as indicated.
+      * Footer - Repeated steps on all pages.
+        * Verify that the social media links open in a new tab.
+        * Verify that the email link works when selected.
+        * Verify that the phone number shown is dialled when selected.
+        * Verify that the website hyperlink directs the user back to the landing page.
     * ## Additional Testing 
       * W3 - Unicorn Validator
 
