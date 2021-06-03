@@ -75,9 +75,8 @@ The website features an initial landing page, and four additional pages of conte
     3. As a user, I want to be able to find out the cost of the services provided.
     4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
     5. As a user, I want to be able to contact the company.
-    6. As a user, I want to know where you are located.
+    6. As a user, I want to know where your paint stockists are located.
     7. As a user, I want to be able to access your social media accounts.
-    8. As a user, I want to know who I will be dealing with.
   * ## Wireframes
     * Mobile, Tablet, and Desktop wireframes are all available [here.](assets/docs/wireframes.pdf)
   * ## Design
@@ -170,19 +169,29 @@ The website features an initial landing page, and four additional pages of conte
     * ## Owner Goals Testing
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
+         * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo.
+         * On the landing page there is a banner wproviding Covid-19 information and also a link to the call to action form on the contact page.
       2. As a user, I want to know what services are provided, and what is involved in the process.
+         * A user can navigate to the services page in order to see what is involved int the interior design steps.
+         * There is further information regarding the paint service on the paint page.
       3. As a user, I want to be able to find out the cost of the services provided.
+         * A user can find out the price for the initial consultation on the services page.
       4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
+         * A user can view past projects on the portfolio page, where there is a carousel of images of the companies most recent projects.
       5. As a user, I want to be able to contact the company.
-      6. As a user, I want to know where you are located.
+         * A user can contact the company via the telephone numbers in the footer.
+         * A user can contact the company via the email adress in the footer.
+         * A user can contact the company via the form on the contact page.
+      6. As a user, I want to know where your paint stockists are located.
+         * A user can find out the location of the paint stockists by naviagtin to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
       7. As a user, I want to be able to access your social media accounts.
-      8. As a user, I want to know who I will be dealing with.
+         * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
 
     * ## Additional Testing
       W3 - Unicorn Validator
 
       W3 - HTML Validator
-      
+
       Developer Tools - Lighthouse
 
         * ### Ongoing Bugs
