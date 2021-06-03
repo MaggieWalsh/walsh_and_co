@@ -44,7 +44,7 @@ Live website available to view [here.](https://maggiewalsh.github.io/walsh_and_c
 I wanted to create a website to showcase a fictional, luxury, interior design company, based in Ireland and England.  
 The website features an initial landing page, and four additional pages of content with various different additional elements to create a website that feels real.
 
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/docs/am-i-responsive.png)
+![Am I Responsive image of how the landing page looks across different browser sizes](docs/am-i-responsive.png)
 
 # UX and UI
 
@@ -80,12 +80,12 @@ The website features an initial landing page, and four additional pages of conte
     6. As a user, I want to know where your paint stockists are located.
     7. As a user, I want to be able to access your social media accounts.
   * ## Wireframes
-    * Mobile, Tablet, and Desktop wireframes are all available [here.](assets/docs/wireframes.pdf)
+    * Mobile, Tablet, and Desktop wireframes are all available [here.](docs/wireframes.pdf)
   * ## Design
     * ## Colour Scheme
       I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. 
       
-      I settled on my hero image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](assets/docs/colour-palette.jpg) pallette for the website from my hero image. This meant that the colours complimented each other nicely. 
+      I settled on my hero image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](docs/colour-palette.jpg) pallette for the website from my hero image. This meant that the colours complimented each other nicely. 
     * ## Favicon 
       I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted to continue with the neutral theme, so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
     * ## Typography
@@ -101,20 +101,20 @@ The website features an initial landing page, and four additional pages of conte
       * Every page has the following features from left to right, top to bottom :
         * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the landing page from all other pages.
 
-          ![Logo](assets/docs/logo.png)
+          ![Logo](docs/logo.png)
 
         * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
 
           The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
 
-          ![Navbar](assets/docs/navbar.png)
+          ![Navbar](docs/navbar.png)
 
         * Content - Each page has details relating to the header of said page.
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
         
           The muted font colour adds another subtle dimension to the footer.
 
-          ![Footer](assets/docs/footer.png)
+          ![Footer](docs/footer.png)
 
       * Landing page - This page contains the hero image and a scroll prompt, on desktop only, to allow users to know that there is more content below the fold. 
       
@@ -122,24 +122,24 @@ The website features an initial landing page, and four additional pages of conte
       
         I decided to add a banner below this content to address the current global pandemic, COVID-19, in order to add a sense that this is a real website. There is also a link in this banner that brings the user to the contact page in order to make an appointment as indicated.
 
-        ![Hero Image](assets/docs/landing-page.png)
+        ![Hero Image](docs/landing-page.png)
 
       * Portfolio - The image carousel contains pictures of recent projects completed by the company, with some informative text below.
 
-        ![Portfolio](assets/docs/portfolio.png)
+        ![Portfolio](docs/portfolio.png)
 
       * Services - This gives the user all the information they need, should they engage the services of the company. 
       
         It also contains the costs for the initial consultation. There is an image of a business lady at a computer accompanying this information.
 
-        ![Services](assets/docs/services.png)
+        ![Services](docs/services.png)
 
       * Paint - I wanted to provide the user with a brief description of the paint service available. 
       
         The stockist button serves to pop open a modal which is styled with the same colour pallette and font as the rest of the site. In the modal there is a table containing contact information for each stockist in Ireland and England. This allows the user to choose their nearest stockist to get their paint from.
         Upon exiting the modal, below the "Stockist" button there are a range of paints available from the company.
 
-        ![Paint](assets/docs/paint.png)
+        ![Paint](docs/paint.png)
 
       * Contact - This page contains a form for the user to do a number of things, e.g. book an appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
       
@@ -147,7 +147,7 @@ The website features an initial landing page, and four additional pages of conte
 
         Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the company offices.
 
-        ![Contact](assets/docs/contact.png)
+        ![Contact](docs/contact.png)
 
     * ## Features to be Implemented in Future
       * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
