@@ -251,8 +251,11 @@ The website features an initial landing page, and four additional pages of conte
       Unsplash - 
     * ## Code
     * ## Acknowledgements
-      Fiachra Holland
-      Simen Daehlin
-      Rohit Sharma
+      * Fiachra Holland
+      * Simen Daehlin
+      * Rohit Sharma
+      * MDB
+      * Stack Overflow
+      * Slack 
 
 
