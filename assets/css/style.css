@@ -7,29 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
-/* Landing Page About */
-
-.about-image,
-.success-image {
-    max-width: 75%;
-    padding-left: 25%;
-}
-
-.index-about,
-.services-about {
-    max-width: 90%;
-    padding-left: 13%;
-}
-
-.services-about {
-    max-width: 90%;
-    padding-right: 13%;
-}
-
-img.img-fluid.aboiut-image.mt-5 {
-    vertical-align: middle;
-}
-
 /* Navbar */
 
 div.container-fluid,
@@ -69,7 +46,30 @@ h4.text-center {
     color: #212529;
 }
 
-/* Font - Color for Covid banner */
+/* Landing Page - About */
+
+.about-image,
+.success-image {
+    max-width: 75%;
+    padding-left: 25%;
+}
+
+.index-about,
+.services-about {
+    max-width: 90%;
+    padding-left: 13%;
+}
+
+.services-about {
+    max-width: 90%;
+    padding-right: 13%;
+}
+
+img.img-fluid.aboiut-image.mt-5 {
+    vertical-align: middle;
+}
+
+/* Color for Covid banner */
 
 p.text-center.mt-5.mb-5 {
     background-color: #bd9a99;
@@ -105,7 +105,7 @@ form {
     width: 90%;
 }
 
-/* Contact - Center Cards*/
+/* Contact - Center Cards */
 
 div.card,
 div.form-group,
@@ -115,81 +115,6 @@ form {
 
 div.form-group {
     max-width: 70%;
-}
-
-/* Footer */
-
-a {
-    color: #6c757d;
-}
-
-footer {
-    background-color: #d4d0c8;
-    color: #212529;
-    padding: 1%;
-    bottom: 0;
-}
-
-/* Trasparent overlay to keep same convention for colors across the website */
-
-div.text-center.p-4 {
-    background-color: #00000010;
-}
-/* https://stackoverflow.com/questions/23201134/transparent-argb-hex-value#:~:text=Transparency%20is%20controlled%20by%20the,mixed%20with%20the%20background%20color. */
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 0 1%;
-    padding: 0 2%;
-    color: #212529;
-}
-
-.email-link {
-    color: #6c757d;
-}
-
-/* Media Queries */
-
-@media (max-width: 480px) {
-    .showroom {
-        display: none;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .scroll-down,
-    .scroll-down::after,
-    .scroll-down::before,
-    div.scroll-down {
-        display: none;
-    }
-}
-
-/* Media query to reduce amount of circles */
-
-@media (min-width: 1200px) and (max-width: 1399px) {
-
-    .paint-circle-sea.paint-circle,
-    .paint-circle-coal.paint-circle,
-    .headings19,
-    .headings20 {
-        display: none;
-    }
-}
-
-@media (min-width: 372px) and (max-width: 495px) {
-
-    .paint-circle-sea.paint-circle,
-    .paint-circle-coal.paint-circle,
-    .headings19,
-    .headings20 {
-        display: none;
-    }
 }
 
 /* Paint Circle Divs - Colour/Size */
@@ -281,6 +206,41 @@ div.text-center.p-4 {
     background-color: #45484b;
 }
 
+/* Footer */
+
+a {
+    color: #6c757d;
+}
+
+footer {
+    background-color: #d4d0c8;
+    color: #212529;
+    padding: 1%;
+    bottom: 0;
+}
+
+/* Trasparent overlay to keep same convention for colors across the website */
+
+div.text-center.p-4 {
+    background-color: #00000010;
+}
+/* https://stackoverflow.com/questions/23201134/transparent-argb-hex-value#:~:text=Transparency%20is%20controlled%20by%20the,mixed%20with%20the%20background%20color. */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0 1%;
+    padding: 0 2%;
+    color: #212529;
+}
+
+.email-link {
+    color: #6c757d;
+}
+
 /* Scroll down feature Credit to Fiachra Holland */
 
 .scroll-down {
@@ -357,5 +317,47 @@ div.text-center.p-4 {
     100% {
         top: 90%;
         opacity: 0;
+    }
+}
+
+/* To remove showroom cards on tablet/mobile */
+
+@media (max-width: 480px) {
+    .showroom {
+        display: none;
+    }
+}
+
+/* To remove scroll icon on tablet/mobile */
+
+@media (max-width: 991px) {
+
+    .scroll-down,
+    .scroll-down::after,
+    .scroll-down::before,
+    div.scroll-down {
+        display: none;
+    }
+}
+
+/* To reduce amount of circles */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .paint-circle-sea.paint-circle,
+    .paint-circle-coal.paint-circle,
+    .headings19,
+    .headings20 {
+        display: none;
+    }
+}
+
+@media (min-width: 372px) and (max-width: 495px) {
+
+    .paint-circle-sea.paint-circle,
+    .paint-circle-coal.paint-circle,
+    .headings19,
+    .headings20 {
+        display: none;
     }
 }
