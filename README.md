@@ -21,7 +21,7 @@
     * [Frameworks & Libraries](#frameworks---libraries)
   * [Testing](#testing)
     * [Owner Goals Testing](#owner-goals-testing)
-    * [User Stories Testing](#user-stories-testing)
+    * [Functional Element Testing](#functional-element-testing)
     * [Additional Testing](#additional-testing)
         + [Ongoing Bugs](#ongoing-bugs)
   * [Deployment](#deployment)
@@ -50,7 +50,7 @@ The website features an initial landing page, and four additional pages of conte
 
   * ## Project Research
 
-    I have worked in and managed a trade paint shop since 2016. Having served thousands of customers, I have a good understanding of the expectations people have when it comes to the finish of their homes. 
+    I have worked in, and managed a trade paint shop since 2016. Having served thousands of customers, I have a good understanding of the expectations people have when it comes to the finish of their homes. 
 
     * ## Research Analysis
 
@@ -87,7 +87,7 @@ The website features an initial landing page, and four additional pages of conte
       
       I settled on my hero image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](assets/docs/colour-palette.jpg) pallette for the website from my hero image. This meant that the colours complimented each other nicely. 
     * ## Favicon 
-      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted to continue with the neutral theme of the so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
+      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted to continue with the neutral theme, so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
     * ## Typography
       I wanted an elegant looking font to bolster the feeling of luxury throughout the site. I liked the contrast between the font for the headings which is Fairplay Display, and the font for the rest of the website.
     * ## Imagery
@@ -99,15 +99,16 @@ The website features an initial landing page, and four additional pages of conte
   * ## Features
     * ## Existing Features
       * Every page has the following features from left to right, top to bottom :
-        * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the homepage from all other pages.
+        * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the landing page from all other pages.
 
         ![Logo](assets/docs/logo.png)
 
         * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
 
-        ![Navbar](assets/docs/navbar.png)
-
           The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
+
+          ![Navbar](assets/docs/navbar.png)
+
         * Content - Each page has details relating to the header of said page.
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
         
@@ -140,16 +141,17 @@ The website features an initial landing page, and four additional pages of conte
 
         ![Paint](assets/docs/paint.png)
 
-      * Contact - This page contains a form for the user to do a number of things, e.g. Book and appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
+      * Contact - This page contains a form for the user to do a number of things, e.g. book an appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
       
-        The user must submit certain details on the form in order for it to be successful. Once done, the user is brought to a success page that thanks them for their enquiry. It will redirect the user to the services page , as stated, after 10 seconds. This page has the same styling and navigation menu as the other pages, should an error occur and the redirect fails. There is some text to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon.
+        The user must submit certain details on the form in order for it to be successful. Once done, the user is brought to a success page that thanks them for their enquiry. It will redirect the user to the services page , as stated, after 10 seconds. This page has the same styling and navigation menu as the other pages. Should an error occur and the redirect fails, the user will be able to navigate the page as normal. There is some text to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon.
 
-        Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the locations.
+        Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the company offices.
 
         ![Contact](assets/docs/contact.png)
 
     * ## Features to be Implemented in Future
-      * 3D Room Visualiser and Furniture Shop
+      * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
+      * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
   * ## Technologies Used
     * ## Languages
       * HTML5
@@ -169,21 +171,21 @@ The website features an initial landing page, and four additional pages of conte
       * Am I Responsive
   * ## Testing
     * ## Owner Goals Testing
-    1. Increase sales.
-       * Search engine optimization.
-       * Well organised content.
-       * User-friendly site.
-       * Effective calls to action.
+      1. Increase sales.
+         * Search engine optimization.
+         * Well organised content.
+         * User-friendly site.
+         * Effective calls to action.
 
-    2. Improve interaction with existing and potential customers.
-       * Newsletter sign-up.
-       * Support via numerous contact options.
-       * Easy to access information regarding steps involved.
-       * Website is screen-reader friendly and can be navigated with just a keyboard.
+      2. Improve interaction with existing and potential customers.
+         * Newsletter sign-up.
+         * Support via numerous contact options.
+         * Easy to access information regarding steps involved.
+         * Website is screen-reader friendly and can be navigated with just a keyboard.
 
-    3. Build the brand.
-       * Social media links to promote brand on other avenues.
-       * Associated with a desireable paint brand.
+      3. Build the brand.
+         * Social media links to promote brand on other avenues.
+         * Associated with a desireable paint brand.
 
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
@@ -204,13 +206,40 @@ The website features an initial landing page, and four additional pages of conte
          * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
       7. As a user, I want to be able to access your social media accounts.
          * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
+    * ## Functional Element Testing 
+      * Navigation - Confirmed on all pages.
+        * Confirmed that logo returns user to landing page from all other pages
+        * Confirmed that all navigation links direct to the specified page.
+        * Confirmed that the current page the user is on, is highlighted as active in the menu.
+        * Confirmed that the naviagation menu shifts to from hamburger on screens of 991px and above.
+      * Landing page
+        * Confirmed that the scroll prompt works only on screens 991px and above.
+        * Confirmed that the link to make an appoitnment directs the user to the contact page.
+      * Portfolio
+        * Confirmed that the image carousel is functional, and clicks through the images.
+        * Confirmed that images are confined to the carousel and not overflowing it.
+      * Paint
+        * Confirmed that the stockist button pops open a modal.
+        * Confirmed that the modal contains a table with stockist informatio. 
+        * Confirmed that modal closes when the 'X' button is selcted, or the user clicks on the screen anywhere outside of the modal window.
+      * Contact
+        * Confirmed that all elements that are set to required are working.
+        * Confirmed that valid email address is needed with relevant '@' included.
+        * Confirmed that 'Submit' button directs user to a success page.
+      * Form success
+        * Confirm that navigation elements work.
+        * Confirm that page automatically directs user to the services page after 10 seconds, as indicated.
+      * Footer - Confirmed on all pages
+        * Confirmed that the social media links open in a new tab.
+        * Confirmed that the email link works when selected.
+        * Confirmed that the phone number shown is dialled when selected.
+        * Confirmed that the website hyperlink directs the user back to the landing page.
+    * ## Additional Testing 
+      * W3 - Unicorn Validator
 
-    * ## Additional Testing
-      W3 - Unicorn Validator
+      * W3 - HTML Validator
 
-      W3 - HTML Validator
-
-      Developer Tools - Lighthouse
+      * Developer Tools - Lighthouse
 
         * ### Ongoing Bugs
   * ## Deployment
