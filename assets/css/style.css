@@ -174,8 +174,8 @@ div.text-center.p-4 {
 
 @media (min-width: 1200px) and (max-width: 1399px) {
 
-    .paint-circle-sea,
-    .paint-circle-coal,
+    .paint-circle-sea.paint-circle,
+    .paint-circle-coal.paint-circle,
     .headings19,
     .headings20 {
         display: none;
@@ -184,8 +184,8 @@ div.text-center.p-4 {
 
 @media (min-width: 372px) and (max-width: 495px) {
 
-    .paint-circle-sea,
-    .paint-circle-coal,
+    .paint-circle-sea.paint-circle,
+    .paint-circle-coal.paint-circle,
     .headings19,
     .headings20 {
         display: none;
@@ -194,164 +194,91 @@ div.text-center.p-4 {
 
 /* Paint Circle Divs - Colour/Size */
 
-.paint-circle-white {
+.paint-circle {
     height: 100px;
     width: 100px;
-    background-color: #eee9e7;
     border-radius: 50%;
     margin: 2%;
+}
+
+.paint-circle-white {
+    background-color: #eee9e7;
 }
 
 .paint-circle-beige {
-    height: 100px;
-    width: 100px;
     background-color: #ece9d8;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-brown {
-    height: 100px;
-    width: 100px;
     background-color: #cec0ad;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-greige {
-    height: 100px;
-    width: 100px;
     background-color: #ddd8cf;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-mouse {
-    height: 100px;
-    width: 100px;
     background-color: #a59f97;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-sage {
-    height: 100px;
-    width: 100px;
     background-color: #bfc2b2;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-grey {
-    height: 100px;
-    width: 100px;
     background-color: #d9d8d2;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-stone {
-    height: 100px;
-    width: 100px;
     background-color: #8d8d8b;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-plaster {
-    height: 100px;
-    width: 100px;
     background-color: #ccbeb2;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-mauve {
-    height: 100px;
-    width: 100px;
     background-color: #9f9289;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-radish {
-    height: 100px;
-    width: 100px;
     background-color: #5d3a42;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-citrus {
-    height: 100px;
-    width: 100px;
     background-color: #d6c73c;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-apple {
-    height: 100px;
-    width: 100px;
     background-color: #babba5;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-leaf {
-    height: 100px;
-    width: 100px;
     background-color: #889080;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-denim {
-    height: 100px;
-    width: 100px;
     background-color: #4d5b6a;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-purple {
-    height: 100px;
-    width: 100px;
     background-color: #494248;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-cherry {
-    height: 100px;
-    width: 100px;
     background-color: #a04344;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-blush {
-    height: 100px;
-    width: 100px;
     background-color: #9f837f;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-sea {
-    height: 100px;
-    width: 100px;
     background-color: #8a9c9b;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 .paint-circle-coal {
-    height: 100px;
-    width: 100px;
     background-color: #45484b;
-    border-radius: 50%;
-    margin: 2%;
 }
 
 /* Scroll down feature Credit to Fiachra Holland */
