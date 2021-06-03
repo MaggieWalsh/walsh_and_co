@@ -243,7 +243,7 @@ The website features an initial landing page, and four additional pages of conte
 
         * ### Ongoing Bugs
   * ## Deployment
-    * ## Pushing to GitHub Pages from a local text editor
+    * ## Pushing to GitHub from a local text editor
       1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
       2. Open Terminal.
       3. Change the current working directory to your local project.
