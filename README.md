@@ -223,32 +223,21 @@ The website features an initial landing page, and four additional pages of conte
       * W3 - HTML Validator
 
   * ## Deployment
-    * ## Pushing to GitHub from a local text editor
-      1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
-      2. Open Terminal.
-      3. Change the current working directory to your local project.
-      4. Initialize the local directory as a Git repository.
+      1. On GitHub, navigate to your site's repository.
+      2. Under your repository name, click  Settings.
+      3. In the left sidebar, click Pages.
+      Page tab in the left-hand sidebar
+      4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
+      5. Optionally, use the drop-down menu to select a folder for your publishing source.
+      6. Click Save.
 
-         ```$ git init -b main```
-
-       5. Add the files in your new local repository. This stages them for the first commit.
-
-          ```$ git add .```
-
-       6. Commit the files that you've staged in your local repository.
-
-           ```$ git commit -m "initial commit"```
-
-       7. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.
-       8. Copy remote repository URL field
-      
-    * ## Forking the Published GitHub Repository
+  * ## Forking the Published GitHub Repository
       1. Login to GitHub.
       2. Locate your desired repository.
       3. Locate the fork option in the top-right hand corner of the repository page.
       4. You will be asked where you want to fork it to.
 
-    * ## Cloning the Published GitHub Repository
+  * ## Cloning the Published GitHub Repository
   * ## Credits
     * ## Imagery
       Unsplash
