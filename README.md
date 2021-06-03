@@ -101,7 +101,7 @@ The website features an initial landing page, and four additional pages of conte
       * Every page has the following features from left to right, top to bottom :
         * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the landing page from all other pages.
 
-        ![Logo](assets/docs/logo.png)
+          ![Logo](assets/docs/logo.png)
 
         * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
 
@@ -211,7 +211,7 @@ The website features an initial landing page, and four additional pages of conte
         * Confirmed that logo returns user to landing page from all other pages
         * Confirmed that all navigation links direct to the specified page.
         * Confirmed that the current page the user is on, is highlighted as active in the menu.
-        * Confirmed that the naviagation menu shifts to from hamburger on screens of 991px and above.
+        * Confirmed that the navigation menu shifts to from hamburger on screens of 991px and above.
       * Landing page
         * Confirmed that the scroll prompt works only on screens 991px and above.
         * Confirmed that the link to make an appoitnment directs the user to the contact page.
@@ -239,9 +239,6 @@ The website features an initial landing page, and four additional pages of conte
 
       * W3 - HTML Validator
 
-      * Developer Tools - Lighthouse
-
-        * ### Ongoing Bugs
   * ## Deployment
     * ## Pushing to GitHub from a local text editor
       1. Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
@@ -257,18 +254,10 @@ The website features an initial landing page, and four additional pages of conte
 
        6. Commit the files that you've staged in your local repository.
 
-           ```$ git commit -m "First commit```
+           ```$ git commit -m "initial commit"```
 
-       7. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
+       7. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.
        8. Copy remote repository URL field
-In Terminal, add the URL for the remote repository where your local repository will be pushed.
-$ git remote add origin  <REMOTE_URL> 
-# Sets the new remote
-$ git remote -v
-# Verifies the new remote URL
-Push the changes in your local repository to GitHub.
-$ git push -u origin main
-# Pushes the changes in your local repository up to the remote repository you specified as the origin
       
     * ## Forking the Published GitHub Repository
       1. Login to GitHub.
@@ -279,7 +268,7 @@ $ git push -u origin main
     * ## Cloning the Published GitHub Repository
   * ## Credits
     * ## Imagery
-      Unsplash - 
+      Unsplash
     * ## Code
     * ## Acknowledgements
       * Fiachra Holland

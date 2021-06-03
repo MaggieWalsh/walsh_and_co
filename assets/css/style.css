@@ -5,17 +5,18 @@
 * Browsers: last 4 version
 */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 /* Landing Page About */
 
-.about-image, .success-image {
+.about-image,
+.success-image {
     max-width: 75%;
     padding-left: 25%;
 }
 
-.index-about, .services-about {
+.index-about,
+.services-about {
     max-width: 90%;
     padding-left: 13%;
 }
@@ -79,14 +80,14 @@ p.text-center.mt-5.mb-5 {
 div#custom-carousel {
     max-width: 70%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: auto;
 }
- 
+
 span {
     margin: auto;
-} 
+}
 
 /* Contact */
 
@@ -116,8 +117,8 @@ div.form-group {
     max-width: 70%;
 }
 
-
 /* Footer */
+
 a {
     color: #6c757d;
 }
@@ -130,7 +131,7 @@ footer {
 }
 
 div.text-center.p-4 {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #00000010;
 }
 
 .social-networks {
@@ -148,7 +149,6 @@ div.text-center.p-4 {
     color: #6c757d;
 }
 
-
 /* Media Queries */
 
 @media (max-width: 480px) {
@@ -158,7 +158,11 @@ div.text-center.p-4 {
 }
 
 @media (max-width: 991px) {
-    .scroll-down, .scroll-down::after, .scroll-down::before, div.scroll-down {
+
+    .scroll-down,
+    .scroll-down::after,
+    .scroll-down::before,
+    div.scroll-down {
         display: none;
     }
 }
@@ -166,17 +170,24 @@ div.text-center.p-4 {
 /* Media query to reduce amount of circles */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .paint-circle-sea, .paint-circle-coal, .headings19, .headings20 {
+
+    .paint-circle-sea,
+    .paint-circle-coal,
+    .headings19,
+    .headings20 {
         display: none;
     }
 }
 
 @media (min-width: 372px) and (max-width: 495px) {
-    .paint-circle-sea, .paint-circle-coal, .headings19, .headings20 {
-          display: none;
-      }
-  }
 
+    .paint-circle-sea,
+    .paint-circle-coal,
+    .headings19,
+    .headings20 {
+        display: none;
+    }
+}
 
 /* Paint Circle Divs - Colour/Size */
 
@@ -340,7 +351,6 @@ div.text-center.p-4 {
     margin: 2%;
 }
 
-
 /* Scroll down feature Credit to Fiachra Holland */
 
 .scroll-down {
@@ -350,15 +360,16 @@ div.text-center.p-4 {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%);
-        -ms-transform: translate(-50%);
-            transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
     bottom: 20px;
     border-radius: 50px;
     cursor: pointer;
     display: block;
-  }
-  .scroll-down::before,
-  .scroll-down::after {
+}
+
+.scroll-down::before,
+.scroll-down::after {
     content: "";
     position: absolute;
     top: 20%;
@@ -366,49 +377,55 @@ div.text-center.p-4 {
     height: 10px;
     width: 10px;
     -webkit-transform: translate(-50%, -100%) rotate(45deg);
-        -ms-transform: translate(-50%, -100%) rotate(45deg);
-            transform: translate(-50%, -100%) rotate(45deg);
+    -ms-transform: translate(-50%, -100%) rotate(45deg);
+    transform: translate(-50%, -100%) rotate(45deg);
     border: 2px solid #f9f8f7;
     border-top: transparent;
     border-left: transparent;
     -webkit-animation: scroll-down 1s ease-in-out infinite;
-            animation: scroll-down 1s ease-in-out infinite;
-  }
-  .scroll-down::before {
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::before {
     top: 30%;
     -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s;
-  }
-  
-  @-webkit-keyframes scroll-down {
+    animation-delay: 0.3s;
+}
+
+@-webkit-keyframes scroll-down {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     30% {
-      opacity: 1;
+        opacity: 1;
     }
+
     60% {
-      opacity: 1;
+        opacity: 1;
     }
+
     100% {
-      top: 90%;
-      opacity: 0;
+        top: 90%;
+        opacity: 0;
     }
-  }
-  
-  @keyframes scroll-down {
+}
+
+@keyframes scroll-down {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     30% {
-      opacity: 1;
+        opacity: 1;
     }
+
     60% {
-      opacity: 1;
+        opacity: 1;
     }
+
     100% {
-      top: 90%;
-      opacity: 0;
+        top: 90%;
+        opacity: 0;
     }
-  }
-  
+}
