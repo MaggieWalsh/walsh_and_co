@@ -28,18 +28,17 @@ The website features an initial landing page, and four additional pages of conte
     * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
   * [Technologies Used](#technologies-used)
     * [Languages](#languages)
-    * [Frameworks & Libraries](#frameworks---libraries)
+    * [Frameworks and Libraries](#frameworks-and-libraries)
   * [Testing](#testing)
-    * [Owner Goals Testing](#owner-goals-testing)
-    * [Functional Element Testing](#functional-element-testing)
+    * [Functionality Testing](#functionality-testing)
     * [Additional Testing](#additional-testing)
-        + [Ongoing Bugs](#ongoing-bugs)
+    * [Bugs](#bugs)
   * [Deployment](#deployment)
-    * [GitHub Pages](#github-pages)
-    * [Forking the Published GitHub Repository](#forking-the-published-github-repository)
-    * [Cloning the Published GitHub Repository](#cloning-the-published-github-repository)
+    * [Forking a GitHub Repository](#forking-a-github-repository)
+    * [Forking a GitHub Repository](#forking-a-github-repository)
+    * [Cloning a repository using the command line](#cloning-a-repository-using-the-command-line)
   * [Credits](#credits)
-    * [Imagery](#imagery-1)
+    * [Imagery](#imagery)
     * [Code](#code)
     * [Acknowledgements](#acknowledgements)
 
@@ -154,9 +153,9 @@ The website features an initial landing page, and four additional pages of conte
       * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
   * ## Technologies Used
     * ## Languages
-      * HTML5
-      * CSS
-    * ## Frameworks & Libraries
+      * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+      * [CSS](https://en.wikipedia.org/wiki/CSS)
+    * ## Frameworks and Libraries
       * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) (which uses JavaScript)
       * [!bcdn5](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) extension
       * [Google Fonts](https://fonts.google.com/)
@@ -221,7 +220,14 @@ The website features an initial landing page, and four additional pages of conte
       * [W3 - Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
       * [W3C - HTML Validator](https://validator.w3.org/)
-
+    * ## Resolve Bugs
+      * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
+      ![Modal error](docs/modal-error.png)
+      * I noticed stray ```, _ ``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
+      ![white-space](docs/white-space.jpeg)
+      ![whitespace](docs/whitespace.jpeg)
+      * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour.
+      ![links](docs/links.png)
   * ## Deployment
       1. On GitHub, navigate to your site's repository.
       2. Under your repository name, click  *Settings*.
@@ -269,12 +275,12 @@ The website features an initial landing page, and four additional pages of conte
     * ## Imagery
       Unsplash
     * ## Code
+      * All code is my own unless explicitly stated in my code files in a comment.
+      * A special mention to Fiachra Holland for the code for the scroll indicator and the redirect function as mentioned in the comments in my code. Also for the basic structure for the README.md file.
+      * Credit to [MDB](https://mdbootstrap.com/) for the footer that I adapted.
+      * Credit to Stack Overflow for some solutions that I have commented in my code.
     * ## Acknowledgements
-      * Fiachra Holland
-      * Simen Daehlin
-      * Rohit Sharma
-      * MDB
-      * Stack Overflow
-      * Slack 
+      * A special thank you to my mentor Rohit Sharma.  
+      * Thanks to my peers on Slack for their support along the way.
 
 
