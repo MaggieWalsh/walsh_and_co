@@ -206,6 +206,22 @@ div.form-group {
     background-color: #45484b;
 }
 
+/* 404 Error Page */
+
+.error-message {
+    background: black;
+    opacity: 0.7;
+    }
+    
+    .error {
+       font-size: 25vw;
+       margin: 0;
+    }
+    
+    .error-text {
+        font-size: 3vw;
+    }
+
 /* Footer */
 
 a {
