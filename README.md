@@ -32,7 +32,7 @@ The website features an initial landing page, and four additional pages of conte
   * [Testing](#testing)
     * [Functionality Testing](#functionality-testing)
     * [Additional Testing](#additional-testing)
-    * [Bugs](#bugs)
+    * [Resolve Bugs](#resolve-bugs)
   * [Deployment](#deployment)
     * [Forking a GitHub Repository](#forking-a-github-repository)
     * [Forking a GitHub Repository](#forking-a-github-repository)
