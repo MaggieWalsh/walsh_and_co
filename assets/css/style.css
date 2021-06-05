@@ -211,16 +211,16 @@ div.form-group {
 .error-message {
     background: black;
     opacity: 0.7;
-    }
-    
-    .error {
-       font-size: 25vw;
-       margin: 0;
-    }
-    
-    .error-text {
-        font-size: 3vw;
-    }
+}
+
+.error {
+    font-size: 25vw;
+    margin: 0;
+}
+
+.error-text {
+    font-size: 3vw;
+}
 
 /* Footer */
 
@@ -235,11 +235,12 @@ footer {
     bottom: 0;
 }
 
-/* Trasparent overlay to keep same convention for colors across the website */
+/* Trasparent overlay to keep same convention for colors across the website instead of rgba */
 
 div.text-center.p-4 {
     background-color: #00000010;
 }
+
 /* https://stackoverflow.com/questions/23201134/transparent-argb-hex-value#:~:text=Transparency%20is%20controlled%20by%20the,mixed%20with%20the%20background%20color. */
 
 .social-networks {
@@ -257,7 +258,7 @@ div.text-center.p-4 {
     color: #6c757d;
 }
 
-/* Scroll down feature Credit to Fiachra Holland */
+/* Scroll down feature over hero image Credit to Fiachra Holland */
 
 .scroll-down {
     height: 50px;

@@ -173,6 +173,7 @@ The website features an initial landing page, and four additional pages of conte
       * [Autoprefixer](https://autoprefixer.github.io/)
       * [Am I Responsive](http://ami.responsivedesign.is/)
   * ## Testing
+    Testing for this website was done using the Google Chrome Browser, using Chrome Developer Tools to check the different screensizes. Testing was also done on an iPhone 8 using Safari, as sometimes Safari can cause issues with how the website renders. No such errors were found.
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
          * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo. As is standard with most navigation these days.
@@ -227,7 +228,9 @@ The website features an initial landing page, and four additional pages of conte
       * [W3C - HTML Validator](https://validator.w3.org/)
     * ## Resolved Bugs
       * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
-      ![Modal error](docs/modal-error.png)
+
+        ![Modal error](docs/modal-error.png)
+
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
       ![white-space](docs/white-space.jpeg)
@@ -239,6 +242,9 @@ The website features an initial landing page, and four additional pages of conte
       ![links](docs/links.png)
 
   * ## Deployment
+
+     I chose to create this project in VS Code rather than Gitpod. This is why there is no instructions related to Gitpod.
+  
       1. On GitHub, navigate to your site's repository.
       2. Under your repository name, click  *Settings*.
       3. In the left sidebar, click Pages.
