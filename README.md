@@ -241,6 +241,15 @@ The website features an initial landing page, and four additional pages of conte
 
         ![links](docs/links.png)
 
+      * Initially the landing page didn't have the tagline 'Original Interior Design' I felt like it wasn't immediately clear what the purpose of the website was. I chose to add this tagline in order to make it clear.
+
+      * As the hero image takes up the entire content above the fold, I was worried that users to the site might not realise that there was more content upon scrolling. This led to me looking for a scroll indicator that I could apply to the desktop version. I found that on another CI students page, Fiachra Holland, who I have credited in my code and further down the readme.
+
+      * In order to improve accessibility, I added *aria labels* to all non-text links.
+
+      * In order to improve accessibility, I added *aria-hidden true* to Font Awesome icons that were not fucntional.
+
+      * In order to improve best practices, I added *rel-noopener* to the untrusted external links.
 
   * ## Deployment
 
