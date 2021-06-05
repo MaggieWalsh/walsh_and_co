@@ -110,8 +110,6 @@ The website features an initial landing page, and four additional pages of conte
 
         * Content - Each page has details relating to the header of said page.
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
-        
-          The muted font colour adds another subtle dimension to the footer.
 
           ![Footer](docs/footer.png)
 
