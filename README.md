@@ -30,9 +30,9 @@ The website features an initial landing page, and four additional pages of conte
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks-and-libraries)
   * [Testing](#testing)
-    * [Functionality Testing](#functionality-testing)
+    * [Manual Testing](#manual-testing)
     * [Additional Testing](#additional-testing)
-    * [Resolve Bugs](#resolve-bugs)
+    * [Resolved Bugs](#resolved-bugs)
   * [Deployment](#deployment)
     * [Forking a GitHub Repository](#forking-a-github-repository)
     * [Forking a GitHub Repository](#forking-a-github-repository)
@@ -148,6 +148,10 @@ The website features an initial landing page, and four additional pages of conte
 
         ![Contact](docs/contact.png)
 
+      * 404 Error - This page is a purpose made error page to link to the email address in the footer. There is a return to home link which directs the user back to the websites landing page.
+
+        ![Error](docs/error404.png)
+
     * ## Features to be Implemented in Future
       * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
       * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
@@ -160,8 +164,8 @@ The website features an initial landing page, and four additional pages of conte
       * [!bcdn5](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) extension
       * [Google Fonts](https://fonts.google.com/)
       * [Font Awesome](https://fontawesome.com/)
-      * Coolors.co
-      * Favicon.io
+      * [Coolors.co](https://coolors.co)
+      * [Favicon.io](https://favicon.io)
       * [Unsplash](https://unsplash.com/)
       * [Balsamiq](https://balsamiq.com/)
       * [VS Code](https://code.visualstudio.com/)
@@ -188,7 +192,7 @@ The website features an initial landing page, and four additional pages of conte
          * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
       7. As a user, I want to be able to access your social media accounts.
          * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
-    * ## Functionality Testing 
+    * ## Manual Testing 
       * Navigation - Repeated steps on all pages.
         * Click on logo to confirm that it navigates to landing page.
         * Click on all navigation links to verify that they direct to the indicated page.
@@ -213,21 +217,27 @@ The website features an initial landing page, and four additional pages of conte
         * Verify that the page automatically redirects the user to the services page after 10 seconds, as indicated.
       * Footer - Repeated steps on all pages.
         * Verify that the social media links open in a new tab.
-        * Verify that the email link works when selected.
+        * Verify that the email link directs the user to a custom 404 error page when selected.
+        * Verify that the 404 error page 'Return home' link brings the user back to the landing page.
         * Verify that the phone number shown is dialled when selected.
         * Verify that the website hyperlink directs the user back to the landing page.
     * ## Additional Testing 
       * [W3 - Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
       * [W3C - HTML Validator](https://validator.w3.org/)
-    * ## Resolve Bugs
+    * ## Resolved Bugs
       * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
       ![Modal error](docs/modal-error.png)
-      * I noticed stray ```, _ ``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
+      * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
+
       ![white-space](docs/white-space.jpeg)
+
       ![whitespace](docs/whitespace.jpeg)
+
       * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour.
+
       ![links](docs/links.png)
+
   * ## Deployment
       1. On GitHub, navigate to your site's repository.
       2. Under your repository name, click  *Settings*.
@@ -261,15 +271,15 @@ The website features an initial landing page, and four additional pages of conte
           $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
           ```
 
-\> Cloning into \`Spoon-Knife`\...
+        \> Cloning into \`Spoon-Knife`\...
 
-\> remote: Counting objects: 10, done.
+        \> remote: Counting objects: 10, done.
 
-\> remote: Compressing objects: 100% (8/8), done.
+        \> remote: Compressing objects: 100% (8/8), done.
 
-\> remove: Total 10 (delta 1), reused 10 (delta 1)
+        \> remove: Total 10 (delta 1), reused 10 (delta 1)
 
-\> Unpacking objects: 100% (10/10), done.
+        \> Unpacking objects: 100% (10/10), done.
 
   * ## Credits
     * ## Imagery
