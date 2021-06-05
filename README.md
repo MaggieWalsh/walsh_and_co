@@ -233,13 +233,13 @@ The website features an initial landing page, and four additional pages of conte
 
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
-      ![white-space](docs/white-space.jpeg)
+        ![white-space](docs/white-space.jpeg)
 
-      ![whitespace](docs/whitespace.jpeg)
+        ![whitespace](docs/whitespace.jpeg)
 
       * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour.
 
-      ![links](docs/links.png)
+        ![links](docs/links.png)
 
   * ## Deployment
 
