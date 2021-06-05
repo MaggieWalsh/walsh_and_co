@@ -235,9 +235,12 @@ The website features an initial landing page, and four additional pages of conte
 
         ![whitespace](docs/whitespace.jpeg)
 
-      * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour.
+      * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour. 
+
+        The contrast between the footer color and the font was poor, I removed the muted text class to revert it to it's darker color.
 
         ![links](docs/links.png)
+
 
   * ## Deployment
 
@@ -287,14 +290,15 @@ The website features an initial landing page, and four additional pages of conte
 
   * ## Credits
     * ## Imagery
-      Unsplash
+        * [Unsplash](https://unsplash.com)
     * ## Code
+      * Bootstrap was the base for the entire website in order to ensure it's responsivity.
       * All code is my own unless explicitly stated in my code files in a comment.
       * A special mention to Fiachra Holland for the code for the scroll indicator and the redirect function as mentioned in the comments in my code. Also for the basic structure for the README.md file.
       * Credit to [MDB](https://mdbootstrap.com/) for the footer that I adapted.
       * Credit to Stack Overflow for some solutions that I have commented in my code.
     * ## Acknowledgements
       * A special thank you to my mentor Rohit Sharma.  
-      * Thanks to my peers on Slack for their support along the way.
+      * Thanks to my peers on Slack, specifically those that responded in the peer review, and my mini feb team, for their support along the way.
 
 
